@@ -62,5 +62,5 @@ resource "azurerm_firewall" "fe-rg" {
     subnet_id            = azurerm_subnet.fe-rg-01.id
     public_ip_address_id = azurerm_public_ip.fe-rg.id
   }
-  //test
+  
 }
